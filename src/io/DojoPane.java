@@ -304,7 +304,7 @@ public class DojoPane {
     }
 
     public Itemable addText(String text, double leftX, double topY) {
-        return addText(text,leftX,topY);
+        return addText(text,Double.valueOf(leftX),Double.valueOf(topY));
     }
 
 
